@@ -22,14 +22,14 @@ border-radius: 200px;
 
 }
 .navbar a{
-    float: left;
+     float: left;
     display: block;
     color: aqua;
     text-align: center;
     padding: 10px;
     text-decoration: none;
-    margin-left: 550px;
     font-size: 40px;
+    
 }
 .navbar a:hover {
     background-color: aliceblue;

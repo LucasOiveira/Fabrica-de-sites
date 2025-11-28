@@ -1,0 +1,27 @@
+.product-image {
+    /* aumenta a Largura em 40% */
+    width: 40%;
+    /* faz um elemento se posicionar com relação a sua posição original*/
+    position: relative;
+    /* aumenta 10 pixels para a esquerda */
+    left: 10px;
+}
+body {
+    /* muda a cor do fundo */
+    background-color: rgb(134, 117, 117);
+}
+.add-to-cart-btn {
+    /* muda a cor da letra */
+    color: aqua;
+    /* muda a cor do fundo */
+    background-color: black;
+}
+.product-card {
+    /* aumenta a largura em 400 pixels */
+    width: 400px;
+}
+
+button {
+    /* faz uma sobra 3d sobre o butão */
+    box-shadow: 5px 5px 5px rgb(235, 233, 233);
+}
