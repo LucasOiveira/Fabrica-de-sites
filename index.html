@@ -1,15 +1,4 @@
-
-
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -19,30 +8,55 @@
 </head>
 <body>
 
+    
      <div class="navbar">
-        
-       
-        <a href="index1.html">Introdução</a>
+         <a href="index1.html">Introdução</a>
         <a href="index2.html">Origem na Inglaterra</a>
         <a href="index3.html">Football Association</a>
         <a href="index4.html">Chegada no brasil</a>
          <a href="index.html">Formulario</a>
-     </div>
+    </div>
 
-     <h1>Diagnóstico do Projeto</h1>
+    <div id="formulario">
+        <form action="">
+            <fieldset>
+                <legend>Fale conosco</legend>
 
-    <ul>
-        <li>Qual o nome e objetivo do site?<span class="sp"> <br> "A história do Futebol", seu principal objetivo é informar sobre conteúdos de Futebol como o que é e a sua história. </span> </li>
-        <li>Que páginas Já foram criadas? <span class="sp"> <br>O formulario, a Introdução, origem na Inglaterra, Football Association e chegada no brasil.</span></li>
-        <li>Quais ferramentas estão sendo usadas?  <span class="sp"> <br>VScode</span></li>
-        <li>Que dificuldades você encontrou?  <span class="sp"> <br>Nenhuma</span></li>
-        <li>O que falta desenvolver até a culminância (01-05/12)?  <span class="sp"> <br>A parte do javaScript</span> </li>
-    </ul>
+                <div>
+                <label for="nome">Nome: </label>
+                <input id="nome" name="nome" type="text"> 
+                </div>
+
+                <div>
+                <label for="email">E-mail:</label>
+                <input id="email" name="email" type="email"> 
+                </div>
+
+                <div>
+                <label for="assunto">Assunto</label> 
+                <select name="assunto" id="assunto">
+                    <option value="feedback">o que achou sobre o projeto?</option>
+                    <option value="sugest">sugestão sobre o projeto</option>
+                    <option value="new-project">Ideia de um novo projeto</option>
+                    <option value="mensagem">opinião sobre o projeto</option>
+                </select>
+                </div>
+
+                <div>
+                <label for="mensagem">Mensagem</label> <br>
+                <textarea name="mensagem" id="mensagem" cols="82" rows="20"></textarea>
+                </div>
+            </fieldset>
+            <button class="btn" type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <footer>Desenvolvido por: <span class="span">Lucas de Oliveira Nunes</span></footer>
 
     <script src="script.js">
       
     </script>
 </body>
 </html>
-</body>
-</html>
+
+
